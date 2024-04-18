@@ -1,0 +1,29 @@
+# Introduction to Accessibility
+
+## What is Accessibility?
+
+When we think about accessibility, the first thing we usually think of is whether we can access something or use that thing. While that is, in fact, what accessibility is, it goes a whole lot deeper than that. No doubt about it, accessibility is an extraordinarily broad topic. In this series of articles, I will break down this broad, but important, subject into smaller, more consumable pieces for you so the task of understanding it and implementing it does not seem so daunting.
+
+At the core of it, you can think of accessibility as a bridge. A bridge to opportunities yet unknown to a user with some kind of disability. When creating environments, products, and experiences with accessibility in mind, you are extending that bridge for so many people who would otherwise have a tough time using the product, enjoying the experience you have created, or navigating the environment you created. By extending that bridge, you have removed barriers that not only help those with a disability, no matter how small, but you have also made the experience better for your able-bodied users, too, who might have some kind of temporary disability like a broken arm or those who might be elderly.
+
+In the digital world of our smartphones, tablets, computers and even our wearables, accessibility takes the form of many distinctive features. This can include magnification, screen readers, closed captioning, reducing animations, voice input, and much more. For us to ensure our apps work with these features effectively, there is one question we must ask ourselves. Is the content and design of my app or site POUR? You might be asking yourself what POUR means, and that is a fantastic question. POUR stands for perceivable, operable, understandable, and robust. These are the four guiding principles for ensuring our software is accessible. Let us dive into these a little bit so you have a better understanding of why these are so important.
+
+## Perceivable
+
+This principle emphasizes the idea that the content of our app or website must be presented in such a way that it is perceivable by all your users, regardless of physical or sensory ability. Examples of this principle being followed in practice can be providing alternative text for images, providing audio description for videos, closed captioning, properly labelling form fields, and providing transcripts for audio clips. Inversely, having low contrast between foreground and background colors, not having alternative text on images, not having captions in videos and not properly labelling form fields does not adhere to this principle.
+
+## Operable
+
+This principle stipulates that an app or website must be operable by everyone, regardless of disability or temporary limitation. Examples of adhering to this principle include making sure that all actions of your application can be triggered by a keyboard shortcut or voice command and providing ample time to complete timed tasks without causing unnecessary stresses. The primary example of not following this principle is your app or site being only operable with a mouse and making a complex multi-touch gesture the only way to complete a task or execute an action.
+
+## Understandable
+
+This principle underlines the importance of making sure that the content of your app is clear and concise. To comply with this principle, you should use plain language in instructions, error messages, and labels for controls. Other things you can do to make sure you are following this principle are to make sure that you do not convey meaning of messages or functionality of user interface elements by color alone, rather use colors in conjunction with icons and labels that clearly convey their meaning. In short, the user should be able to comprehend the meaning and functionality of every part of your app with little effort and without needing to parse any potentially complex jargon.
+
+## Robust
+
+This principle ensures compatibility with the wide range of assistive technologies, such as screen readers, and ensures compatibility with future user agents. To comply with this principle, you should try to stick to using native user interface controls, rather than relying on custom ones. When you use native controls, you will get accessibility support and semantics out of the box, but when you use custom controls or solutions, you, often, will not get that support and those semantics. That means, you would have to implement the accessibility support yourself. In web development, a fitting example of making sure you adhere to this principle would be in the layout and organization of your page in the DOM. Using semantic markup, such as navigation elements, heading elements, and others, as well as organizing them in a logical way goes a long way to making sure the user, disabled or otherwise, have an easy time navigating your site and to making sure it is robust.
+
+## Conclusion
+
+Today we discussed several concepts, including what accessibility is, and the four principles you must follow to make sure your site or app is accessible. In summary, we learned that accessibility is a broad topic that in the barest possible terms means whether or not someone can access the content of your site or app. We also learned that in order for your app or site to be accessible to all users, the content of the site or app must be POUR. When we implement accessibility support into our software from the beginning, we build a bridge to opportunities that are yet unknown to someone who has a disability. In the next article, we will talk about the various disabilities you should accommodate for in your software's design.
